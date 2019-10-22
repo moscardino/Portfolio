@@ -16,10 +16,12 @@ const Styledimg = styled.img`
   }
 `
 const Styledstrong= styled.strong`
-font-size: 2rem`
+font-size: 2rem;
+width: 24rem`
 
 const Styleddiv= styled.div`
-font-size: 1.5rem`
+font-size: 1.5rem;
+width: 24rem`
 
 const About = ({ title = 'Who Am I?', whoIam }) => {
   return (
