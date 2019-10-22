@@ -1,26 +1,49 @@
 import React, { Fragment } from 'react'
 import ReactTooltip from 'react-tooltip'
+import styled from 'styled-components'
 
-export default ({ title = 'about', whoIam }) => {
+const Styledimg = styled.img`
+  width: 8rem;
+  height: 100%;
+  background-color: white;
+  transition: transform 0.2s;
+  :hover {
+    transform: scale(3);
+    background-color: rgb(236, 234, 234);
+  }
+  :hover:after {
+    content: 'pipsdhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhpo';
+  }
+`
+const Styledstrong= styled.strong`
+font-size: 2rem`
+
+const Styleddiv= styled.div`
+font-size: 1.5rem`
+
+const About = ({ title = 'Who Am I?', whoIam }) => {
   return (
     <Fragment>
       <h1>{title}</h1>
       <div style={{ display: 'flex', flexWrap: 'wrap' }}>
         {whoIam.map(character => (
-          <div style={{ width: '6rem' }}>
-            <ReactTooltip id={character.whatIam} type="light">
-              <div style={{width: '6rem'}}>{character.details}</div>
+          <div>
+            <ReactTooltip id={character.whatIam} type="light" multiline>
+              <Styledstrong>{character.whatIam}</Styledstrong>
+              <Styleddiv>{character.details}</Styleddiv>
             </ReactTooltip>
-            <img
+            <Styledimg
               src={character.image}
               alt={character.details}
               data-tip=""
               data-for={character.whatIam}
+              className="image__about"
             />
-            <strong style={{fontSize: '0.8rem'}}>{character.whatIam}</strong>
           </div>
         ))}
       </div>
     </Fragment>
   )
 }
+
+export default About

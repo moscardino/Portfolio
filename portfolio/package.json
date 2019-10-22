@@ -23,6 +23,8 @@
     "react-helmet": "5.2.1",
     "react-icons": "3.6.1",
     "react-tooltip": "^3.11.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.1",
     "simple-json-fetch": "1.0.1",
     "styled-components": "4.2.0"
   },

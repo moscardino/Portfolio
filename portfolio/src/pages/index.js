@@ -12,6 +12,8 @@ import About from '../components/about'
 import Skills from '../components/skills'
 import Timeline from '../components/timeline'
 import Repositories from '../components/repositories'
+import 'semantic-ui-css/semantic.min.css'
+
 
 const Separator = styled.hr`
   margin-top: 24px;
@@ -82,7 +84,7 @@ class Home extends React.Component {
             </Row>
             <Row>
               <Col xs={16} sm={16}>
-                <About title="About" whoIam={siteConfig.authorDescription} />
+                <About title="Who Am I?" whoIam={siteConfig.authorDescription} />
               </Col>
             </Row>
             <Row>

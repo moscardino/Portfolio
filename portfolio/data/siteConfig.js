@@ -10,7 +10,7 @@ module.exports = {
     {
       whatIam: `I'm a physicist.`,
       details: `Too social to be a nerd, too curious to be something else.`,
-      image: '/images/physicist.svg', 
+      image: '/images/physicist.svg',
     },
     {
       whatIam: `I'm an entrepreneur.`,
@@ -66,47 +66,83 @@ module.exports = {
   ],
   jobs: [
     {
-      company: 'Lendico',
+      company: 'Murex',
       begin: {
-        month: 'apr',
-        year: '2018',
-      },
-      duration: null,
-      occupation: 'Frontend developer',
-      description:
-        'I integrate the Frontend team responsible for developing and maintaining the online lending platform.',
-    },
-    {
-      company: 'Anapro',
-      begin: {
-        month: 'dec',
+        month: 'nov',
         year: '2016',
       },
-      duration: '1 yr e 5 mos',
-      occupation: 'Fullstack developer',
+      duration: null,
+      occupation: 'Senior Business Consultant',
       description:
-        'Development and maintenance, corrective and preventive, of web applications for the real estate market.',
+      `Stream leader agile and SME (scoping to go-live) for Murex3 implementation projects (migration and green fields), with focus on P&L, accounting and hedge accounting topics, for EMEA clients.
+      EMEA global reviewer of Product Control client business requirements.`,
     },
     {
-      company: 'Anapro',
+      company: 'Accenture',
       begin: {
-        month: 'set',
+        month: 'oct',
+        year: '2014',
+      },
+      duration: '2 yrs',
+      occupation: 'Murex Business analyst',
+      description: `I carried on a MX3 migration/installation project for the main merchant bank in Italy as an Accounting and Hedge Accounting specialist at Murex, Paris.
+      I have been a Murex consultant for Banca Monte dei Paschi di Siena (MPS), providing user support for both MX2 and MX3. I worked on requirements definition, design, building and testing, with a special focus on MO/BO modules, risk modules and FO reconciliation.
+      I have worked on Accounting, Fixing and Realtime (RTBS), Simulation and PLVAR, Reporting (Datamart and MReport), Hedge Accounting, Post-trade and pre-trade workflows, FO tools.
+      `,
+    },
+    {
+      company: 'Noivion',
+      begin: {
+        month: 'apr',
         year: '2012',
       },
-      duration: '4 yrs e 3 mos',
-      occupation: 'Support Technician',
+      duration: null,
+      occupation: 'Board member – founder – former CTO',
       description:
-        'Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool.',
+        `Noivion srl is a company in the field of Thin Film Deposition Equipment and industrial Nanotechnology. `,
+    },
+    {
+      company: 'Siena Solar Nanotech (2SN) S.p.A. and Light4tech srl',
+      begin: {
+        month: 'feb',
+        year: '2010',
+      },
+      duration: '2 yrs and 2 mos',
+      occupation: 'Prototyping Engineer - Project Engineer',
+      description:
+        `New prototype development; Maintenance engineer; Scientist. `,
+    },
+    {
+      company: 'IDS spa',
+      begin: {
+        month: 'jul',
+        year: '2009',
+      },
+      duration: '6 mos',
+      occupation: 'Software engineer',
+      description:
+        `Calculation libraries development in C++ . `,
+    },
+    {
+      company: 'CNR Pisa',
+      begin: {
+        month: 'jan',
+        year: '2008',
+      },
+      duration: '1 yr 5 mos',
+      occupation: 'Thesist',
+      description:
+        `Laser Plasma interactions for fast electron production, computer simulations. `,
     },
     /* ... */
   ],
   social: {
-    twitter: 'https://twitter.com/_franciscodf',
-    linkedin: 'https://www.linkedin.com/in/santos-francisco',
-    github: 'https://github.com/santosfrancisco',
-    email: 'yoshi.df@gmail.com',
+    twitter: '',
+    linkedin: 'https://linkedin.com/in/vittorifrancesco',
+    github: 'https://github.com/moscardino',
+    email: 'whitethree@gmail.com',
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
+  siteUrl: 'localhost:8000',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
@@ -117,7 +153,7 @@ module.exports = {
   headerLinks: [
     {
       label: 'Francesco Vittori',
-      url: '/',
+      url: '/localhost:8000',
     },
   ],
 }
