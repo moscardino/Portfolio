@@ -10,12 +10,12 @@ module.exports = {
     {
       whatIam: `I'm a physicist.`,
       details: `Too social to be a nerd, too curious to be something else.`,
-      image: '/images/physicist.svg',
+      image: '/images/physicist.jpg',
     },
     {
       whatIam: `I'm an entrepreneur.`,
       details: `My entire life is based on the concept that building the future is a strange mixture of breaking through decisions and will power, with a sprinkle of luck.`,
-      image: '/images/businessMan.svg',
+      image: '/images/businessMan.jpg',
     },
     {
       whatIam: `I'm a project manager.`,
@@ -25,27 +25,27 @@ module.exports = {
     {
       whatIam: `I'm a husband.`,
       details: `I’ve found the girl.`,
-      image: '/images/husband.svg',
+      image: '/images/husband.jpg',
     },
     {
       whatIam: `I'm a father.`,
       details: `That girl gave me a wonderful present.`,
-      image: '/images/father.svg',
+      image: '/images/father.jpg',
     },
     {
       whatIam: `I'm a software engineer, a technical analyst, a financial analyst, a business analyst, an electrical engineer, a mechanical engineer, a researcher.`,
       details: `Well I’m a little bit of all these people. I’ve got some professional experience in each one of these fields.`,
-      image: '/images/handyman.svg',
+      image: '/images/handyman.png',
     },
     {
       whatIam: `I'm a little girl.`,
       details: `Yes, I have some little girl's attitudes, just as everybody, but I'm really pride of them. I cry when I watch a romantic movie. I'm excited when I see a baby. I love to be emotive and emphatic.`,
-      image: '/images/littlegirl.svg',
+      image: '/images/littlegirl.jpg',
     },
     {
       whatIam: `I am a reader.`,
       details: `I love books and enjoy reading whenever I can and almost wherever (thanks, Kindle!)`,
-      image: '/images/reader.gif',
+      image: '/images/reader.png',
     },
     {
       whatIam: `I’m a gambler.`,
@@ -55,12 +55,12 @@ module.exports = {
     {
       whatIam: `I’m a searcher.`,
       details: `Have you ever felt that black hole just inside your soul? Nothing can fill it, except the seek for something you don’t know. But that damn hole is never satisfied and you must go on feeding it. Feed or get eaten.`,
-      image: '/images/searcher.svg',
+      image: '/images/searcher.jpg',
     },
     {
       whatIam: `I’m a friend.`,
       details: `That kind of friend you can count on when you need him, but also that kind who can turn a boring night in an exiting journey.`,
-      image: '/images/friend.svg',
+      image: '/images/friend.png',
     },
     {
       whatIam: `I’m a sommelier.`,
@@ -70,7 +70,7 @@ module.exports = {
     {
       whatIam: `I’m a startupper.`,
       details: `What a ugly word. Let’s say I love to start ventures and I love to be innovative. Innovation is something new, something real, something that run away straight to success.`,
-      image: '/images/startupper.png',
+      image: '/images/startupper.jpg',
     },
     {
       whatIam: `I’m a night-dreamer.`,
@@ -184,7 +184,7 @@ module.exports = {
   },
   siteUrl: 'localhost:8000',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-  siteCover: '/static/images/gattaca.jpeg',
+  siteCover: '/images/owlsret.png',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',

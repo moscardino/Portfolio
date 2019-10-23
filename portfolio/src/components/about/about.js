@@ -3,14 +3,13 @@ import styled from 'styled-components'
 
 const Container = styled.div`
   position: relative;
-  width: 8rem;
-  height: 8rem;
+  width: 9rem;
+  height: 9rem;
   border-radius:10px;
   transition: transform 0.2s, opacity 0.2s;
   text-align: center;
   padding:10px;
   margin:5px;
-  border: 1px solid darkblue;
   :hover {
     transform: scale(4);
     z-index: 2;
