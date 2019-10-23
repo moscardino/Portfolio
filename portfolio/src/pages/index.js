@@ -9,16 +9,9 @@ import Hero from '../components/hero'
 import SEO from '../components/SEO'
 import Wrapper from '../components/wrapper'
 import About from '../components/about'
-import Skills from '../components/skills'
-import Timeline from '../components/timeline'
-import Repositories from '../components/repositories'
+
 import 'semantic-ui-css/semantic.min.css'
 
-
-const Separator = styled.hr`
-  margin-top: 24px;
-  margin-bottom: 16px;
-`
 
 class Home extends React.Component {
   render() {
@@ -84,18 +77,12 @@ class Home extends React.Component {
             </Row>
             <Row>
               <Col xs={16} sm={16}>
-                <About title="Who Am I?" whoIam={siteConfig.authorDescription} />
+                <About
+                  title="Who Am I?"
+                  whoIam={siteConfig.authorDescription}
+                />
               </Col>
             </Row>
-            <Row>
-              <Col xs={16} sm={16}>
-                <Skills title="Skills" skills={siteConfig.skills} />{' '}
-              </Col>
-            </Row>
-            <Separator />
-            <Timeline />
-            <Separator />
-            <Repositories />
           </Container>
         </Wrapper>
       </Layout>

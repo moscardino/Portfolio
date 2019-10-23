@@ -183,9 +183,9 @@ module.exports = {
     email: 'whitethree@gmail.com',
   },
   siteUrl: 'localhost:8000',
-  pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
+  pathPrefix: '/portfolio', // Note: it must *not* have a trailing slash.
   siteCover: '/images/owlsret.png',
-  googleAnalyticsId: 'UA-000000000-1',
+  googleAnalyticsId: '',
   background_color: '#ffffff',
   theme_color: '#25303B',
   display: 'minimal-ui',
@@ -193,7 +193,15 @@ module.exports = {
   headerLinks: [
     {
       label: 'Francesco Vittori',
-      url: '/localhost:8000',
+      url: '/',
+    },
+    {
+      label: 'Details',
+      url: '/details',
+    },
+    {
+      label: 'CV',
+      url: '/',
     },
   ],
 }
