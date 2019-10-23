@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react'
-import ReactTooltip from 'react-tooltip'
 import styled from 'styled-components'
 
 const Container = styled.div`
@@ -9,6 +8,9 @@ const Container = styled.div`
   border-radius:10px;
   transition: transform 0.2s, opacity 0.2s;
   text-align: center;
+  padding:10px;
+  margin:5px;
+  border: 1px solid darkblue;
   :hover {
     transform: scale(4);
     z-index: 2;
@@ -62,16 +64,16 @@ const Container = styled.div`
 
 const Styledstrong = styled.strong`
   font-size: 0.6rem;
-
+l
 `
 
 const About = ({ className, title = 'Who Am I?', whoIam }) => {
   return (
-    <Fragment className={className}>
+    <div className={className}>
       <h1>{title}</h1>
       <div style={{ display: 'flex', flexWrap: 'wrap' }}>
         {whoIam.map(character => (
-          <Container>
+          <Container key={character.whatIam}>
             <img
               className="image"
               src={character.image}
@@ -85,7 +87,7 @@ const About = ({ className, title = 'Who Am I?', whoIam }) => {
           </Container>
         ))}
       </div>
-    </Fragment>
+    </div>
   )
 }
 

@@ -20,7 +20,7 @@ module.exports = {
     {
       whatIam: `I'm a project manager.`,
       details: `Everything is a project. Even preparing your breakfast. And every project can be done with a straight through approach or with an innovative mindset. I prefer the latter, but I don't disregard the former.`,
-      image: '/images/entrepreneur.svg',
+      image: '/images/projectmanager.svg',
     },
     {
       whatIam: `I'm a husband.`,
@@ -36,6 +36,46 @@ module.exports = {
       whatIam: `I'm a software engineer, a technical analyst, a financial analyst, a business analyst, an electrical engineer, a mechanical engineer, a researcher.`,
       details: `Well I’m a little bit of all these people. I’ve got some professional experience in each one of these fields.`,
       image: '/images/handyman.svg',
+    },
+    {
+      whatIam: `I'm a little girl.`,
+      details: `Yes, I have some little girl's attitudes, just as everybody, but I'm really pride of them. I cry when I watch a romantic movie. I'm excited when I see a baby. I love to be emotive and emphatic.`,
+      image: '/images/littlegirl.svg',
+    },
+    {
+      whatIam: `I am a reader.`,
+      details: `I love books and enjoy reading whenever I can and almost wherever (thanks, Kindle!)`,
+      image: '/images/reader.gif',
+    },
+    {
+      whatIam: `I’m a gambler.`,
+      details: `I don’t like casinos and betting money, they’re not rewarding enough. I love betting ideas.`,
+      image: '/images/gambler.png',
+    },
+    {
+      whatIam: `I’m a searcher.`,
+      details: `Have you ever felt that black hole just inside your soul? Nothing can fill it, except the seek for something you don’t know. But that damn hole is never satisfied and you must go on feeding it. Feed or get eaten.`,
+      image: '/images/searcher.svg',
+    },
+    {
+      whatIam: `I’m a friend.`,
+      details: `That kind of friend you can count on when you need him, but also that kind who can turn a boring night in an exiting journey.`,
+      image: '/images/friend.svg',
+    },
+    {
+      whatIam: `I’m a sommelier.`,
+      details: `Not every wine lover is an alcoholic :-).`,
+      image: '/images/sommelier.jpg',
+    },
+    {
+      whatIam: `I’m a startupper.`,
+      details: `What a ugly word. Let’s say I love to start ventures and I love to be innovative. Innovation is something new, something real, something that run away straight to success.`,
+      image: '/images/startupper.png',
+    },
+    {
+      whatIam: `I’m a night-dreamer.`,
+      details: `During the day I work to make my dreams real. Step by step.`,
+      image: '/images/dreamer.jpg',
     },
   ],
   skills: [
@@ -144,7 +184,7 @@ module.exports = {
   },
   siteUrl: 'localhost:8000',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover.jpeg',
+  siteCover: '/static/images/gattaca.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
