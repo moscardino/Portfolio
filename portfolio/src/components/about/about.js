@@ -38,6 +38,7 @@ const Container = styled.div`
     opacity: 0;
     height: 100%;
     width: 100%;
+    color:black;
     padding:5px;
     border-radius:10px;
     transition: opacity 0.2s ease-in;
@@ -61,6 +62,7 @@ const Container = styled.div`
 
 const Styledstrong = styled.strong`
   font-size: 0.6rem;
+
 `
 
 const About = ({ className, title = 'Who Am I?', whoIam }) => {
