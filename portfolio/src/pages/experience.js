@@ -20,13 +20,8 @@ class Details extends React.Component {
     return (
       <Layout location={this.props.location}>
         <Wrapper className={this.props.className}>
-        <Separator />
-
-        <Skills title="Skills" skills={siteConfig.skills} />{' '}
-        <Separator />
           <Timeline />
           <Separator />
-          <Repositories />
         </Wrapper>
       </Layout>
     )

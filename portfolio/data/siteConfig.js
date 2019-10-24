@@ -181,11 +181,19 @@ module.exports = {
       url: '/',
     },
     {
-      label: 'Details',
-      url: '/details',
+      label: 'Experience',
+      url: '/experience',
     },
     {
-      label: 'CV',
+      label: 'Skills',
+      url: '/skills',
+    },
+    {
+      label: 'Repositories',
+      url: '/repositories',
+    },
+    {
+      label: 'download CV',
       url: '/',
     },
   ],
