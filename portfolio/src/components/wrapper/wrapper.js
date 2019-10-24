@@ -17,7 +17,7 @@ const Wrapper = styled.main.attrs({
   text-align: center;
 
   @media (max-width: 780px) {
-    width: 90%;
+    width: 60%;
     padding: 25px;
   }
 `

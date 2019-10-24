@@ -52,7 +52,6 @@ module.exports = {
       details: `I don’t like casinos and betting money, they’re not rewarding enough. I love betting ideas.`,
       image: '/images/gambler.png',
     },
-
     {
       whatIam: `I’m a friend.`,
       details: `That kind of friend you can count on when you need him, but also that kind who can turn a boring night in an exiting journey.`,
@@ -104,8 +103,7 @@ module.exports = {
       },
       duration: null,
       occupation: 'Senior Business Consultant',
-      description:
-      `Stream leader agile and SME (scoping to go-live) for Murex3 implementation projects (migration and green fields), with focus on P&L, accounting and hedge accounting topics, for EMEA clients.
+      description: `Stream leader agile and SME (scoping to go-live) for Murex3 implementation projects (migration and green fields), with focus on P&L, accounting and hedge accounting topics, for EMEA clients.
       EMEA global reviewer of Product Control client business requirements.`,
     },
     {
@@ -129,8 +127,7 @@ module.exports = {
       },
       duration: null,
       occupation: 'Board member – founder – former CTO',
-      description:
-        `Noivion srl is a company in the field of Thin Film Deposition Equipment and industrial Nanotechnology. `,
+      description: `Noivion srl is a company in the field of Thin Film Deposition Equipment and industrial Nanotechnology. `,
     },
     {
       company: 'Siena Solar Nanotech (2SN) S.p.A. and Light4tech srl',
@@ -140,8 +137,7 @@ module.exports = {
       },
       duration: '2 yrs and 2 mos',
       occupation: 'Prototyping Engineer - Project Engineer',
-      description:
-        `New prototype development; Maintenance engineer; Scientist. `,
+      description: `New prototype development; Maintenance engineer; Scientist. `,
     },
     {
       company: 'IDS spa',
@@ -151,8 +147,7 @@ module.exports = {
       },
       duration: '6 mos',
       occupation: 'Software engineer',
-      description:
-        `Calculation libraries development in C++ . `,
+      description: `Calculation libraries development in C++ . `,
     },
     {
       company: 'CNR Pisa',
@@ -162,8 +157,7 @@ module.exports = {
       },
       duration: '1 yr 5 mos',
       occupation: 'Thesist',
-      description:
-        `Laser Plasma interactions for fast electron production, computer simulations. `,
+      description: `Laser Plasma interactions for fast electron production, computer simulations. `,
     },
     /* ... */
   ],

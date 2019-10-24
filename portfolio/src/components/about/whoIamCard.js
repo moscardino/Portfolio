@@ -34,6 +34,7 @@ const Container = styled.div`
     width: 100%;
     border-radius: 50%;
     opacity: 1;
+    padding:3px;
     background-color: transparent;
     transition: opacity 0.2s ease-out;
   }
@@ -45,10 +46,10 @@ const Container = styled.div`
     height: 100%;
     width: 100%;
     color: black;
-    padding: 30px 15px 30px 15px ;
+    padding: 30px 20px 30px 20px ;
     border-radius: 50%;
     transition: opacity 0.2s ease-in;
-    font-size: 0.3rem;
+    font-size: 0.2rem;
     overflow-bottom: hidden;
     line-height: 1.1;
     text-align: center;
@@ -67,7 +68,7 @@ const Container = styled.div`
 `
 
 const Styledstrong = styled.strong`
-  font-size: 0.5rem;
+  font-size: 0.4rem;
 l
 `
 
