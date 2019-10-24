@@ -94,6 +94,8 @@ export default styled(Home)`
   .avatar__image {
     box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.75);
     border-radius: 50%;
+    position:relative;
+    z-index:3
   }
 
   .social {

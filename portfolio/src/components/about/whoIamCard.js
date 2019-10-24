@@ -17,7 +17,7 @@ const Container = styled.div`
   padding: 20px;
   :hover {
     transform: scale(5);
-    z-index: 2;
+    z-index: 4;
     background-color: white;
   }
   :hover .image {
