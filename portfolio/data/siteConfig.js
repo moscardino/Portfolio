@@ -52,20 +52,11 @@ module.exports = {
       details: `I don’t like casinos and betting money, they’re not rewarding enough. I love betting ideas.`,
       image: '/images/gambler.png',
     },
-    {
-      whatIam: `I’m a searcher.`,
-      details: `Have you ever felt that black hole just inside your soul? Nothing can fill it, except the seek for something you don’t know. But that damn hole is never satisfied and you must go on feeding it. Feed or get eaten.`,
-      image: '/images/searcher.jpg',
-    },
+
     {
       whatIam: `I’m a friend.`,
       details: `That kind of friend you can count on when you need him, but also that kind who can turn a boring night in an exiting journey.`,
       image: '/images/friend.png',
-    },
-    {
-      whatIam: `I’m a sommelier.`,
-      details: `Not every wine lover is an alcoholic :-).`,
-      image: '/images/sommelier.jpg',
     },
     {
       whatIam: `I’m a startupper.`,

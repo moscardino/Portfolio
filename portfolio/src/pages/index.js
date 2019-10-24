@@ -1,17 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Container, Row, Col } from 'react-awesome-styled-grid'
 import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from 'react-icons/fa'
 import siteConfig from '../../data/siteConfig'
-
 import Layout from '../components/layout'
-import Hero from '../components/hero'
 import SEO from '../components/SEO'
 import Wrapper from '../components/wrapper'
-import About from '../components/about'
-
-import 'semantic-ui-css/semantic.min.css'
-
+import './index.css'
+import WhoIamCard from '../components/about/whoIamCard'
 
 class Home extends React.Component {
   render() {
@@ -23,67 +18,65 @@ class Home extends React.Component {
     }
 
     const title = siteConfig.siteTitle
+    const whoIam = siteConfig.authorDescription
     const { keywords } = siteConfig
     return (
       <Layout location={this.props.location}>
         <SEO title={title} keywords={keywords} />
-
-        <Hero heroImg={siteConfig.siteCover} title={title} />
-
         <Wrapper className={this.props.className}>
-          <Container className="page-content" fluid>
-            <Row>
-              <Col xs={4} className="avatar">
-                <img
-                  className="avatar__image"
-                  src="/images/avatar.jpeg"
-                  alt="user avatar"
-                />
-                <div className="social">
-                  {siteConfig.social.github && (
-                    <a
-                      className="social-link github"
-                      href={siteConfig.social.github}
-                    >
-                      <FaGithub className="social-icon" size="32" />
-                    </a>
-                  )}
-                  {siteConfig.social.linkedin && (
-                    <a
-                      className="social-link linkedin"
-                      href={siteConfig.social.linkedin}
-                    >
-                      <FaLinkedin className="social-icon" size="32" />
-                    </a>
-                  )}
-                  {siteConfig.social.twitter && (
-                    <a
-                      className="social-link twitter"
-                      href={siteConfig.social.twitter}
-                    >
-                      <FaTwitter className="social-icon" size="32" />
-                    </a>
-                  )}
-                  {siteConfig.social.email && (
-                    <a
-                      className="social-link email"
-                      href={`mailto:${siteConfig.social.email}`}
-                    >
-                      <FaEnvelope className="social-icon" size="32" />
-                    </a>
-                  )}
-                </div>
-              </Col>
-            </Row>
-            <Row>
-              <Col xs={16} sm={16}>
-                <About
-                  title="Who Am I?"
-                  whoIam={siteConfig.authorDescription}
-                />
-              </Col>
-            </Row>
-          </Container>
+          <div className="circle-container">
+            <img
+              className="avatar__image"
+              src="/images/avatar.jpeg"
+              alt="user avatar"
+            />
+            <WhoIamCard character={whoIam[0]} deg="deg0" />
+            <WhoIamCard character={whoIam[1]} deg="deg30" />
+            <WhoIamCard character={whoIam[2]} deg="deg60" />
+            <WhoIamCard character={whoIam[3]} deg="deg90" />
+            <WhoIamCard character={whoIam[4]} deg="deg120" />
+            <WhoIamCard character={whoIam[5]} deg="deg150" />
+            <WhoIamCard character={whoIam[6]} deg="deg180" />
+            <WhoIamCard character={whoIam[7]} deg="deg210" />
+            <WhoIamCard character={whoIam[8]} deg="deg240" />
+            <WhoIamCard character={whoIam[9]} deg="deg270" />
+            <WhoIamCard character={whoIam[10]} deg="deg300" />
+            <WhoIamCard character={whoIam[11]} deg="deg330" />
+          </div>
+          <div className="social">
+              {siteConfig.social.github && (
+                <a
+                  className="social-link github"
+                  href={siteConfig.social.github}
+                >
+                  <FaGithub className="social-icon" size="32" />
+                </a>
+              )}
+              {siteConfig.social.linkedin && (
+                <a
+                  className="social-link linkedin"
+                  href={siteConfig.social.linkedin}
+                >
+                  <FaLinkedin className="social-icon" size="32" />
+                </a>
+              )}
+              {siteConfig.social.twitter && (
+                <a
+                  className="social-link twitter"
+                  href={siteConfig.social.twitter}
+                >
+                  <FaTwitter className="social-icon" size="32" />
+                </a>
+              )}
+              {siteConfig.social.email && (
+                <a
+                  className="social-link email"
+                  href={`mailto:${siteConfig.social.email}`}
+                >
+                  <FaEnvelope className="social-icon" size="32" />
+                </a>
+              )}
+            </div>
         </Wrapper>
       </Layout>
     )
@@ -94,23 +87,17 @@ export default styled(Home)`
   .page-content {
     max-width: 100%;
     margin-bottom: 40px;
+    text-align:center;
   }
 
-  .avatar {
-    align-items: center;
-    margin-bottom: 24px;
-  }
 
   .avatar__image {
     box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.75);
-    max-width: 200px;
-    border-radius: 100px;
-    margin: 0 auto 24px;
+    border-radius: 50%;
   }
 
   .social {
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin: 200px auto auto auto;
   }
 
   .social-link {
