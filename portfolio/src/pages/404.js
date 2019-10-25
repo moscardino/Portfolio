@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 
 import Layout from '../components/layout'
-import Hero from '../components/hero'
 import Wrapper from '../components/wrapper'
 import SEO from '../components/SEO'
 
@@ -26,10 +25,6 @@ class NotFoundPage extends React.Component {
     return (
       <Layout location={this.props.location} noCover={true}>
         <SEO title="Page Not Found" />
-        <Hero
-          heroImg='/images/404.jpeg'
-          title='404'
-        />
         <Wrapper>
           <MainTitle>404 Page Not Found</MainTitle>
           <Icon>

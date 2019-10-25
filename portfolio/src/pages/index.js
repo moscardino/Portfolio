@@ -20,6 +20,8 @@ class Home extends React.Component {
     const title = siteConfig.siteTitle
     const whoIam = siteConfig.authorDescription
     const { keywords } = siteConfig
+    window.loadPromise.then(() =>   document.body.classList.remove('pause-animation'));
+
     return (
       <Layout location={this.props.location}>
         <SEO title={title} keywords={keywords} />
@@ -94,6 +96,8 @@ export default styled(Home)`
   .avatar__image {
     box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.75);
     border-radius: 50%;
+    position:relative;
+    z-index:3
   }
 
   .social {
