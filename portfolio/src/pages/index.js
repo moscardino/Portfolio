@@ -20,6 +20,7 @@ class Home extends React.Component {
     const title = siteConfig.siteTitle
     const whoIam = siteConfig.authorDescription
     const { keywords } = siteConfig
+    if (typeof window !== 'undefined') 
     window.loadPromise.then(() =>   document.body.classList.remove('pause-animation'));
 
     return (
