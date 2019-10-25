@@ -4,6 +4,7 @@ import styled from 'styled-components'
 const Container = styled.div`
 display:flex;
 margin:10px 0px 10px 0px;
+
 .image {
   height: 8rem;
   width: 8rem;
@@ -11,12 +12,11 @@ margin:10px 0px 10px 0px;
   opacity: 1;
   padding: 3px;
   background-color: transparent;
-  transition: opacity 0.2s ease-out;
 }
 .text {
   height: 100%;
   width: 100%;
-  color: black;
+  color: #25303b;/*darkgrey*/
   font-size: 1rem;
   overflow-bottom: hidden;
   line-height: 1.1;
@@ -25,6 +25,7 @@ margin:10px 0px 10px 0px;
 
 .separator {
   border-bottom-style: solid;
+  border-bottom-color:#026680; /*darkgreen*/
   border-width: 1px;
   margin: 4px 0px 8px 0px;
   width: 70%;
@@ -48,10 +49,11 @@ margin:10px 0px 10px 0px;
     transform: scale(5);
     z-index: 4;
     background-color: white;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.75);
   }
   :hover .image {
     opacity: 0.2;
-    background-color: lightgrey;
+    background-color: #9FEDD7; /*lightgreen*/
   }
   .image {
     position: absolute;
@@ -61,10 +63,6 @@ margin:10px 0px 10px 0px;
     right: 0;
     height: 100%;
     width: 100%;
-    border-radius: 50%;
-    opacity: 1;
-    padding: 3px;
-    background-color: transparent;
     transition: opacity 0.2s ease-out;
   }
   .text {
@@ -74,13 +72,10 @@ margin:10px 0px 10px 0px;
     opacity: 0;
     height: 100%;
     width: 100%;
-    color: black;
     padding: 30px 20px 30px 20px;
     border-radius: 50%;
     transition: opacity 0.2s ease-in;
     font-size: 0.2rem;
-    overflow-bottom: hidden;
-    line-height: 1.1;
     text-align: center;
   }
   .text:hover {
@@ -90,12 +85,9 @@ margin:10px 0px 10px 0px;
     font-size: 0.4rem;
   }
   .separator {
-    border-bottom-style: solid;
-    border-width: 1px;
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
   }
 `
 

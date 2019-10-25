@@ -1,0 +1,6 @@
+#FEF9C7;/*lightyellow*/
+#FCE181;/*solidyellow*/
+#EDEAE5;/*grey*/
+#026680; /*darkgreen*/
+#9FEDD7; /*lightgreen*/
+#25303b;/*darkgrey*/
