@@ -36,6 +36,7 @@ export default function HTML(props) {
       <script
         dangerouslySetInnerHTML={{
           __html: `
+          if (typeof window !== 'undefined') 
     window.loadPromise = new Promise(resolve => {
         window.addEventListener('DOMContentLoaded', resolve)
       })
