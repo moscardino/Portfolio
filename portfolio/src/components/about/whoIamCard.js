@@ -1,9 +1,38 @@
 import React from 'react'
 import styled from 'styled-components'
 
-
-
 const Container = styled.div`
+display:flex;
+margin:10px 0px 10px 0px;
+.image {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  opacity: 1;
+  padding: 3px;
+  background-color: transparent;
+  transition: opacity 0.2s ease-out;
+}
+.text {
+  height: 100%;
+  width: 100%;
+  color: black;
+  font-size: 1rem;
+  overflow-bottom: hidden;
+  line-height: 1.1;
+  padding-left:4px;
+}
+
+.separator {
+  border-bottom-style: solid;
+  border-width: 1px;
+  margin: 4px 0px 8px 0px;
+  width: 70%;
+}
+.strong{
+  font-size: 1.1rem;
+}
+ @media (min-width: 780px) {
   width: 8rem;
   height: 8rem;
   display: block;
@@ -34,7 +63,7 @@ const Container = styled.div`
     width: 100%;
     border-radius: 50%;
     opacity: 1;
-    padding:3px;
+    padding: 3px;
     background-color: transparent;
     transition: opacity 0.2s ease-out;
   }
@@ -46,7 +75,7 @@ const Container = styled.div`
     height: 100%;
     width: 100%;
     color: black;
-    padding: 30px 20px 30px 20px ;
+    padding: 30px 20px 30px 20px;
     border-radius: 50%;
     transition: opacity 0.2s ease-in;
     font-size: 0.2rem;
@@ -56,6 +85,9 @@ const Container = styled.div`
   }
   .text:hover {
     opacity: 1;
+  }
+  .strong{
+    font-size: 0.4rem;
   }
   .separator {
     border-bottom-style: solid;
@@ -67,11 +99,6 @@ const Container = styled.div`
   }
 `
 
-const Styledstrong = styled.strong`
-  font-size: 0.4rem;
-l
-`
-
 export default function WhoIamCard(props) {
   return (
     <Container key={props.character.whatIam} className={props.deg}>
@@ -81,7 +108,7 @@ export default function WhoIamCard(props) {
         alt={props.character.details}
       />
       <div className="text">
-        <Styledstrong>{props.character.whatIam}</Styledstrong>
+        <strong className="strong">{props.character.whatIam}</strong>
         <hr className="separator" />
         {props.character.details}
       </div>

@@ -1,12 +1,41 @@
+@media (max-width: 780px) {
 .circle-container {
   position: relative;
-  width: 24em;
-  height: 24em;
-  padding: 2.8em;
-  /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
+  width: 100%;
+  height: 100%;
+  padding: 0em;
+  display:flex;
+  flex-direction: column;
   border-radius: 50%;
-  margin: 1.75em auto 0;
+  margin: 0em auto 0em auto;
+  
+}
+
+.avatar__image {
+  box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 50%;
+  position: relative;
+  width: 60%;
+  margin:0em auto 2em auto;
+  z-index: 3;
+}
+}
+@media (min-width: 780px) {
+.circle-container {
+  position: relative;
+  width: 40em;
+  height: 40em;
+  padding: 11em;
+  border-radius: 50%;
+  margin: 0em auto 0;
   transition: transform 0.5s ease-out;
+}
+
+.avatar__image {
+  box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 50%;
+  position: relative;
+  z-index: 3;
 }
 
 .center {
@@ -23,43 +52,43 @@
   transform: rotate(30deg) translate(16em) rotate(-30deg);
 }
 .deg60 {
-    animation: deg60 2s ease-out;
+  animation: deg60 2s ease-out;
   transform: rotate(60deg) translate(16em) rotate(-60deg);
 }
 .deg90 {
-    animation: deg90 2s ease-out;
+  animation: deg90 2s ease-out;
   transform: rotate(90deg) translate(16em) rotate(-90deg);
 }
 .deg120 {
-    animation: deg120 2s ease-out;
+  animation: deg120 2s ease-out;
   transform: rotate(120deg) translate(16em) rotate(-120deg);
 }
 .deg150 {
-    animation: deg150 2s ease-out;
+  animation: deg150 2s ease-out;
   transform: rotate(150deg) translate(16em) rotate(-150deg);
 }
 .deg180 {
-    animation: deg180 2s ease-out;
+  animation: deg180 2s ease-out;
   transform: translate(-16em);
 }
 .deg210 {
-    animation: deg210 2s ease-out;
+  animation: deg210 2s ease-out;
   transform: rotate(210deg) translate(16em) rotate(-210deg);
 }
 .deg240 {
-    animation: deg240 2s ease-out;
+  animation: deg240 2s ease-out;
   transform: rotate(240deg) translate(16em) rotate(-240deg);
 }
 .deg270 {
-    animation: deg270 2s ease-out;
+  animation: deg270 2s ease-out;
   transform: rotate(270deg) translate(16em) rotate(-270deg);
 }
 .deg300 {
-    animation: deg300 2s ease-out;
+  animation: deg300 2s ease-out;
   transform: rotate(300deg) translate(16em) rotate(-300deg);
 }
 .deg330 {
-    animation: deg330 2s ease-out;
+  animation: deg330 2s ease-out;
   transform: rotate(330deg) translate(16em) rotate(-330deg);
 }
 
@@ -82,90 +111,91 @@
 }
 
 @keyframes deg60 {
-    0% {
-      transform: rotate(0deg) translate(0em) rotate(0deg);
-    }
-    100% {
-      transform: rotate(60deg) translate(16em) rotate(-60deg);
-    }
+  0% {
+    transform: rotate(0deg) translate(0em) rotate(0deg);
   }
-  @keyframes deg90 {
-    0% {
-      transform: rotate(0deg) translate(0em) rotate(0deg);
-    }
-    100% {
-      transform: rotate(90deg) translate(16em) rotate(-90deg);
-    }
+  100% {
+    transform: rotate(60deg) translate(16em) rotate(-60deg);
   }
+}
+@keyframes deg90 {
+  0% {
+    transform: rotate(0deg) translate(0em) rotate(0deg);
+  }
+  100% {
+    transform: rotate(90deg) translate(16em) rotate(-90deg);
+  }
+}
 
-  @keyframes deg120 {
-    0% {
-      transform: rotate(0deg) translate(0em) rotate(0deg);
-    }
-    100% {
-      transform: rotate(120deg) translate(16em) rotate(-120deg);
-    }
+@keyframes deg120 {
+  0% {
+    transform: rotate(0deg) translate(0em) rotate(0deg);
   }
+  100% {
+    transform: rotate(120deg) translate(16em) rotate(-120deg);
+  }
+}
 
-  @keyframes deg150 {
-    0% {
-      transform: rotate(0deg) translate(0em) rotate(0deg);
-    }
-    100% {
-      transform: rotate(150deg) translate(16em) rotate(-150deg);
-    }
+@keyframes deg150 {
+  0% {
+    transform: rotate(0deg) translate(0em) rotate(0deg);
   }
+  100% {
+    transform: rotate(150deg) translate(16em) rotate(-150deg);
+  }
+}
 
-  @keyframes deg180 {
-    0% {
-        transform: rotate(0deg) translate(0em) rotate(0deg);
-      }
-      100% {
-        transform: rotate(180deg) translate(16em) rotate(-180deg);
-      }
+@keyframes deg180 {
+  0% {
+    transform: rotate(0deg) translate(0em) rotate(0deg);
   }
+  100% {
+    transform: rotate(180deg) translate(16em) rotate(-180deg);
+  }
+}
 
-  @keyframes deg210 {
-    0% {
-      transform: rotate(0deg) translate(0em) rotate(0deg);
-    }
-    100% {
-      transform: rotate(210deg) translate(16em) rotate(-210deg);
-    }
+@keyframes deg210 {
+  0% {
+    transform: rotate(0deg) translate(0em) rotate(0deg);
   }
+  100% {
+    transform: rotate(210deg) translate(16em) rotate(-210deg);
+  }
+}
 
-  @keyframes deg240 {
-    0% {
-      transform: rotate(0deg) translate(0em) rotate(0deg);
-    }
-    100% {
-      transform: rotate(240deg) translate(16em) rotate(-240deg);
-    }
+@keyframes deg240 {
+  0% {
+    transform: rotate(0deg) translate(0em) rotate(0deg);
   }
+  100% {
+    transform: rotate(240deg) translate(16em) rotate(-240deg);
+  }
+}
 
-  @keyframes deg270 {
-    0% {
-      transform: rotate(0deg) translate(0em) rotate(0deg);
-    }
-    100% {
-      transform: rotate(270deg) translate(16em) rotate(-270deg);
-    }
+@keyframes deg270 {
+  0% {
+    transform: rotate(0deg) translate(0em) rotate(0deg);
   }
+  100% {
+    transform: rotate(270deg) translate(16em) rotate(-270deg);
+  }
+}
 
-  @keyframes deg300 {
-    0% {
-      transform: rotate(0deg) translate(0em) rotate(0deg);
-    }
-    100% {
-      transform: rotate(300deg) translate(16em) rotate(-300deg);
-    }
+@keyframes deg300 {
+  0% {
+    transform: rotate(0deg) translate(0em) rotate(0deg);
   }
+  100% {
+    transform: rotate(300deg) translate(16em) rotate(-300deg);
+  }
+}
 
-  @keyframes deg330 {
-    0% {
-      transform: rotate(0deg) translate(0em) rotate(0deg);
-    }
-    100% {
-      transform: rotate(330deg) translate(16em) rotate(-330deg);
-    }
+@keyframes deg330 {
+  0% {
+    transform: rotate(0deg) translate(0em) rotate(0deg);
   }
+  100% {
+    transform: rotate(330deg) translate(16em) rotate(-330deg);
+  }
+}
+}
