@@ -12,7 +12,7 @@ const HeaderWrapper = styled.header`
   display: block;
   width: 100%;
   z-index: 1000;
-  background-color: #25303b;
+  background-color: #25303b;/*darkgrey*/
 `
 
 const HeaderNav = styled.nav`
@@ -24,7 +24,6 @@ const HeaderNav = styled.nav`
   align-items: center;
   overflow-x: auto;
   overflow-y: hidden;
-  background-color: #25303b;
   @media (min-width: 780px) {
     margin-left: auto;
     margin-right: auto;
@@ -51,7 +50,7 @@ const HeaderLink = styled(Link)`
   text-decoration: none;
   display: flex;
   align-items: center;
-  color: #edeae5; /*grey*/
+  color: #FEF9C7;/*lightyellow*/
   border: 0;
   margin: 0;
   padding: 0.3em;
@@ -97,6 +96,40 @@ const GithubLink = styled(({ className }) => (
   }
 `
 
+const Owl = styled(({ className }) => (
+  <a
+    className={className}
+    href={`/`}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img src='/images/owlicon.svg' alt='owl' className='owl'/>
+  </a>
+))`
+  position: absolute;
+  left: 0;
+  color: #fff;
+  border: 0;
+  margin: 0;
+  margin-right: 0.5rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-width: 42px;
+  height:80%;
+  z-index: 10;
+  :hover {
+    color: #fce181; /*solidyellow*/
+  }
+  .owl{
+    height:100%
+  }
+  @media (min-width: 780px) {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+`
+
 class Header extends React.Component {
   render() {
     const { headerLinks } = siteConfig
@@ -104,6 +137,7 @@ class Header extends React.Component {
     return (
       <HeaderWrapper>
         <HeaderNav>
+          <Owl></Owl>
           <HeaderLinkGroup>
             {headerLinks.map((headerLink, i) => (
               <HeaderLink to={headerLink.url} key={`header-link-${i}`}>

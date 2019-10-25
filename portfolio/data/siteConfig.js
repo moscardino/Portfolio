@@ -45,7 +45,7 @@ module.exports = {
     {
       whatIam: `I am a reader.`,
       details: `I love books and enjoy reading whenever I can and almost wherever (thanks, Kindle!)`,
-      image: '/images/reader.png',
+      image: '/images/reader.svg',
     },
     {
       whatIam: `I’m a gambler.`,
@@ -176,10 +176,6 @@ module.exports = {
   display: 'minimal-ui',
   icon: 'src/assets/gatsby-icon.png',
   headerLinks: [
-    {
-      label: 'Francesco Vittori',
-      url: '/',
-    },
     {
       label: 'Experience',
       url: '/experience',

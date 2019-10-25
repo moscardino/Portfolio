@@ -608,6 +608,18 @@ pre tt:after {
   content: '';
 }
 
+.occhio{
+  animation:ruota 2s;
+}
+@keyframes ruota {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360);
+  }
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
