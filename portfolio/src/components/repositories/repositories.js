@@ -47,7 +47,6 @@ class Repositories extends React.Component {
                         ★ {repo.stargazers_count}
                       </div>
                     </div>
-                    <hr />
                   </React.Fragment>
                 ))}
               </div>

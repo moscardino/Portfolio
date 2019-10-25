@@ -7,11 +7,9 @@ const Wrapper = styled.main.attrs({
   border-radius: 3px;
   width: 80%;
   max-width: 960px;
-  border-bottom: 1px solid #ebf2f6;
   word-wrap: break-word;
   background-color: #fff;
-  margin: 250px auto 30px auto;
-  top: -100px;
+  margin: 130px auto 120px auto;
   padding: 50px;
   min-height: 150px;
   text-align: center;
