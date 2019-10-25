@@ -11,6 +11,7 @@ const Separator = styled.hr`
 `
 
 const SocialGroup = styled.div`
+position:relative;
   margin: 0px auto auto auto;
   padding-top: 5px;
   text-align: center;
@@ -19,14 +20,14 @@ const GitHubLink = styled.a`
   padding: 8px;
   color: #555;
   :hover {
-    color: #24292e;
+    color: #FCE181;
   }
 `
 const LinkedinLink = styled.a`
   padding: 8px;
   color: #555;
   :hover {
-    color: #0077b5;
+    color: #026680;
   }
 `
 const TwitterLink = styled.a`
@@ -40,13 +41,14 @@ const EmailLink = styled.a`
   padding: 8px;
   color: #555;
   :hover {
-    color: #c23a2b;
+    color: #9FEDD7;
   }
 `
 
 export default class Footer extends React.Component {
   render() {
     return (
+      <React.Fragment>
       <SocialGroup>
         <Separator />
         {siteConfig.social.github && (
@@ -81,7 +83,9 @@ export default class Footer extends React.Component {
             <FaEnvelope className="social-icon" size="32" />
           </EmailLink>
         )}
+      
       </SocialGroup>
+      </React.Fragment>
     )
   }
 }

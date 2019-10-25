@@ -4,6 +4,7 @@ import styled from 'styled-components'
 const Container = styled.div`
 display:flex;
 margin:10px 0px 10px 0px;
+
 .image {
   height: 8rem;
   width: 8rem;
@@ -25,6 +26,7 @@ margin:10px 0px 10px 0px;
 
 .separator {
   border-bottom-style: solid;
+  border-bottom-color:#026680;
   border-width: 1px;
   margin: 4px 0px 8px 0px;
   width: 70%;
@@ -51,7 +53,7 @@ margin:10px 0px 10px 0px;
   }
   :hover .image {
     opacity: 0.2;
-    background-color: lightgrey;
+    background-color: #9FEDD7;
   }
   .image {
     position: absolute;
@@ -91,6 +93,7 @@ margin:10px 0px 10px 0px;
   }
   .separator {
     border-bottom-style: solid;
+    border-bottom-color:#026680;
     border-width: 1px;
     margin-bottom: 10px;
     margin-left: auto;
