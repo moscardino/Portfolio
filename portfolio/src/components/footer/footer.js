@@ -12,7 +12,7 @@ const Separator = styled.hr`
 
 const SocialGroup = styled.div`
   margin: 0px auto auto auto;
-  padding-top: 0px;
+  padding-top: 5px;
   text-align: center;
 `
 const GitHubLink = styled.a`

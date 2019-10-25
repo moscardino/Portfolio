@@ -3,21 +3,26 @@ import styled from 'styled-components'
 const Wrapper = styled.main.attrs({
   role: 'main',
 })`
+display:flex;
+flex-direction:column;
+animation-play-state:paused;
+width: 100%;
+margin:4em auto 10px auto;
+padding: 30px;
+justify-content:center;
+@media (min-width: 780px) {
   position: relative;
   border-radius: 3px;
   width: 80%;
   max-width: 960px;
   word-wrap: break-word;
   background-color: #fff;
-  margin: 130px auto 120px auto;
-  padding: 50px;
+  margin: 4em auto 10px auto;
+  padding: 10px;
   min-height: 150px;
   text-align: center;
-
-  @media (max-width: 780px) {
-    width: 60%;
-    padding: 25px;
-  }
+}
+ 
 `
 
 export default Wrapper
