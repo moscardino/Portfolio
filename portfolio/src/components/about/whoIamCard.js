@@ -50,6 +50,7 @@ margin:10px 0px 10px 0px;
     transform: scale(5);
     z-index: 4;
     background-color: white;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.75);
   }
   :hover .image {
     opacity: 0.2;

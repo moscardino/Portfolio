@@ -45,64 +45,64 @@
 .deg0 {
   animation: deg0 2s ease-out;
   transform: translate(16em);
-  box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  /*box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.75);*/
 }
 .deg30 {
   animation: deg30 2s ease-out;
   transform: rotate(30deg) translate(16em) rotate(-30deg);
-  box-shadow: 3.33px 1.66px 5px 0px rgba(0, 0, 0, 0.75);
+  /*box-shadow: 3.33px 1.66px 5px 0px rgba(0, 0, 0, 0.75);*/
 }
 .deg60 {
   animation: deg60 2s ease-out;
   transform: rotate(60deg) translate(16em) rotate(-60deg);
-  box-shadow: 1.66px 3.33px 5px 0px rgba(0, 0, 0, 0.75);
+  /*box-shadow: 1.66px 3.33px 5px 0px rgba(0, 0, 0, 0.75);*/
 }
 .deg90 {
   animation: deg90 2s ease-out;
   transform: rotate(90deg) translate(16em) rotate(-90deg);
-  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  /*box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);*/
 }
 .deg120 {
   animation: deg120 2s ease-out;
   transform: rotate(120deg) translate(16em) rotate(-120deg);
-  box-shadow: -1.33px 3.33px 5px 0px rgba(0, 0, 0, 0.75);
+  /*box-shadow: -1.33px 3.33px 5px 0px rgba(0, 0, 0, 0.75);*/
 }
 .deg150 {
   animation: deg150 2s ease-out;
   transform: rotate(150deg) translate(16em) rotate(-150deg);
-  box-shadow: -3.33px 1.33px 5px 0px rgba(0, 0, 0, 0.75);
+  /*box-shadow: -3.33px 1.33px 5px 0px rgba(0, 0, 0, 0.75);*/
 }
 .deg180 {
   animation: deg180 2s ease-out;
   transform: translate(-16em);
-  box-shadow: -5px 0px 5px 0px rgba(0, 0, 0, 0.75);
+ /* box-shadow: -5px 0px 5px 0px rgba(0, 0, 0, 0.75);*/
 }
 .deg210 {
   animation: deg210 2s ease-out;
   transform: rotate(210deg) translate(16em) rotate(-210deg);
-  box-shadow: -3.33px -1.66px 5px 0px rgba(0, 0, 0, 0.75);
+ /*box-shadow: -3.33px -1.66px 5px 0px rgba(0, 0, 0, 0.75);*/
 }
 .deg240 {
   animation: deg240 2s ease-out;
   transform: rotate(240deg) translate(16em) rotate(-240deg);
-  box-shadow: -1.66px -3.33px 5px 0px rgba(0, 0, 0, 0.75);
+  /*box-shadow: -1.66px -3.33px 5px 0px rgba(0, 0, 0, 0.75);*/
 }
 .deg270 {
   animation: deg270 2s ease-out;
   transform: rotate(270deg) translate(16em) rotate(-270deg);
-  box-shadow: 0px -5px 5px 0px rgba(0, 0, 0, 0.75);
+  /*box-shadow: 0px -5px 5px 0px rgba(0, 0, 0, 0.75);*/
 
 }
 .deg300 {
   animation: deg300 2s ease-out;
   transform: rotate(300deg) translate(16em) rotate(-300deg);
-  box-shadow: 1.66px -3.33px 5px 0px rgba(0, 0, 0, 0.75);
+  /*box-shadow: 1.66px -3.33px 5px 0px rgba(0, 0, 0, 0.75);*/
 
 }
 .deg330 {
   animation: deg330 2s ease-out;
   transform: rotate(330deg) translate(16em) rotate(-330deg);
-  box-shadow: 3.33px -1.66px 5px 0px rgba(0, 0, 0, 0.75);
+  /*box-shadow: 3.33px -1.66px 5px 0px rgba(0, 0, 0, 0.75);*/
 
 }
 
