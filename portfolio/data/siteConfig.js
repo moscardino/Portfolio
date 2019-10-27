@@ -65,7 +65,7 @@ module.exports = {
     {
       whatIam: `I’m a night-dreamer.`,
       details: `During the day I work to make my dreams real. Step by step.`,
-      image: '/images/dreamer.jpg',
+      image: '/images/dreamer.svg',
     },
   ],
   skills: [

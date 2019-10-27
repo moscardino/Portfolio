@@ -118,6 +118,9 @@ const Owl = styled(({ className }) => (
   .owl {
     height: 100%;
   }
+  .owl:hover{
+    height:110%;
+  }
   @media (min-width: 780px) {
     position: relative;
     display: flex;

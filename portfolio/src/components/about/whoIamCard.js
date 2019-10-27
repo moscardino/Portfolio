@@ -6,9 +6,8 @@ display:flex;
 margin:10px 0px 10px 0px;
 
 .image {
-  height: 8rem;
-  width: 8rem;
-  border-radius: 50%;
+  height: 7.5rem;
+  width: 7.5rem;
   opacity: 1;
   padding: 3px;
   background-color: transparent;
@@ -34,8 +33,8 @@ margin:10px 0px 10px 0px;
   font-size: 1.1rem;
 }
  @media (min-width: 780px) {
-  width: 8rem;
-  height: 8rem;
+  width: 7.5rem;
+  height: 7.5rem;
   display: block;
   position: absolute;
   top: 50%;
@@ -61,6 +60,7 @@ margin:10px 0px 10px 0px;
     left: 0;
     bottom: 0;
     right: 0;
+    border-radius: 50%;
     height: 100%;
     width: 100%;
     transition: opacity 0.2s ease-out;

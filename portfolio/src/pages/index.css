@@ -74,7 +74,7 @@
 }
 .deg180 {
   animation: deg180 2s ease-out;
-  transform: translate(-16em);
+  transform: translate(-14em);
  /* box-shadow: -5px 0px 5px 0px rgba(0, 0, 0, 0.75);*/
 }
 .deg210 {

@@ -1,0 +1,59 @@
+.flyinowl {
+  position: absolute;
+  top: -150%;
+  right: 20%;
+  animation: flyin 5s linear;
+}
+
+@keyframes flyin {
+  0% {top: 50%;right: -10%;}
+  30% {top: 0%;right: 20%;}
+  50% {top: -40%;right: 10%;}
+  70% {top: -80%;right: 20%;}
+  80% {top: -100%;right: 10%;}
+  80% {top: -130%;right: 16%;}
+  100% {
+    top: -150%;
+    right: 20%;
+  }
+}
+
+
+#alasx {
+    animation:wavesx 0.4s linear;
+    transform-origin:20% 37%;
+    animation-iteration-count: 15;
+}
+
+#aladx {
+    animation:wavedx 0.4s linear;
+    transform-origin:80% 35%;
+    animation-iteration-count: 15;
+}
+
+@keyframes wavesx {
+    0%{transform:rotate(0deg)}
+    100%{transform:rotate(20deg)}
+}
+
+@keyframes wavedx {
+    0%{transform:rotate(0deg)}
+    100%{transform:rotate(-20deg)}
+}
+
+#palpsx,#palpdx{
+    position:relative;
+    transform:translateY(-15%);
+    z-index:4;
+  animation: sbatti 0.3s linear;
+  animation-delay: 6s;
+  animation-iteration-count: 2;
+  transform: scale(0.001);
+}
+
+@keyframes sbatti {
+  0% {transform:translateY(-15%) scale(1);}
+  100% {transform:translateY(0%);  }
+}
+
+.pupilla{z-index:0;}
