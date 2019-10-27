@@ -166,6 +166,7 @@ module.exports = {
     linkedin: 'https://linkedin.com/in/vittorifrancesco',
     github: 'https://github.com/moscardino',
     email: 'whitethree@gmail.com',
+    CV:'/CV English - condensed.pdf',
   },
   siteUrl: 'localhost:8000',
   pathPrefix: '/portfolio', // Note: it must *not* have a trailing slash.
@@ -187,10 +188,6 @@ module.exports = {
     {
       label: 'Repositories',
       url: '/repositories',
-    },
-    {
-      label: 'download CV',
-      url: '/',
     },
   ],
 }

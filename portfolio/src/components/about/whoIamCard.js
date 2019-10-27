@@ -25,7 +25,7 @@ margin:10px 0px 10px 0px;
 
 .separator {
   border-bottom-style: solid;
-  border-bottom-color:#026680; /*darkgreen*/
+  border-bottom-color:#25303b;/*darkgrey*/
   border-width: 1px;
   margin: 4px 0px 8px 0px;
   width: 70%;
@@ -53,7 +53,7 @@ margin:10px 0px 10px 0px;
   }
   :hover .image {
     opacity: 0.2;
-    background-color: #9FEDD7; /*lightgreen*/
+    background-color: #FEF9C7;/*lightyellow*/
   }
   .image {
     position: absolute;
