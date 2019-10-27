@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
-import { FaGithub } from 'react-icons/fa'
+import { FaGithub, FaDownload } from 'react-icons/fa'
 import siteConfig from '../../../data/siteConfig'
 
 const HeaderWrapper = styled.header`
@@ -12,7 +12,7 @@ const HeaderWrapper = styled.header`
   display: block;
   width: 100%;
   z-index: 1000;
-  background-color: #25303b;/*darkgrey*/
+  background-color: #25303b; /*darkgrey*/
 `
 
 const HeaderNav = styled.nav`
@@ -50,7 +50,7 @@ const HeaderLink = styled(Link)`
   text-decoration: none;
   display: flex;
   align-items: center;
-  color: #FEF9C7;/*lightyellow*/
+  color: #fef9c7; /*lightyellow*/
   border: 0;
   margin: 0;
   padding: 0.3em;
@@ -97,13 +97,8 @@ const GithubLink = styled(({ className }) => (
 `
 
 const Owl = styled(({ className }) => (
-  <a
-    className={className}
-    href={`/`}
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <img src='/images/owlicon.svg' alt='owl' className='owl'/>
+  <a className={className} href={`/`}>
+    <img src="/images/owlicon.svg" alt="owl" className="owl" />
   </a>
 ))`
   position: absolute;
@@ -115,13 +110,13 @@ const Owl = styled(({ className }) => (
   padding-left: 20px;
   padding-right: 20px;
   min-width: 42px;
-  height:80%;
+  height: 80%;
   z-index: 10;
   :hover {
     color: #fce181; /*solidyellow*/
   }
-  .owl{
-    height:100%
+  .owl {
+    height: 100%;
   }
   @media (min-width: 780px) {
     position: relative;
@@ -137,7 +132,7 @@ class Header extends React.Component {
     return (
       <HeaderWrapper>
         <HeaderNav>
-          <Owl></Owl>
+          <Owl />
           <HeaderLinkGroup>
             {headerLinks.map((headerLink, i) => (
               <HeaderLink to={headerLink.url} key={`header-link-${i}`}>

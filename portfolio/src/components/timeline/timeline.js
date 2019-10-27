@@ -7,18 +7,27 @@ const Timeline = ({ className }) => {
   return (
     <div className={className}>
       <h1>Experience</h1>
-      {siteConfig.jobs && siteConfig.jobs.map(job => (
-        <article key={job.begin.month + job.begin.year} className='timeline__item'>
-          <div className="inner">
-            <span className="timeline__date">
-              <span className="timeline__month">{job.begin.month}</span>
-              <span className="timeline__year">{job.begin.year}</span>
-            </span>
-            <h2 className='timeline__title'>{job.occupation} @ {job.company} <br /><small className='timeline__title--small'>({job.duration || 'present'})</small></h2>
-            <p>{job.description}</p>
-          </div>
-        </article>
-      ))}
+      {siteConfig.jobs &&
+        siteConfig.jobs.map(job => (
+          <article
+            key={job.begin.month + job.begin.year}
+            className="timeline__item"
+          >
+            <div className="inner">
+              <span className="timeline__date">
+                <span className="timeline__month">{job.begin.month}</span>
+                <span className="timeline__year">{job.begin.year}</span>
+              </span>
+              <h2 className="timeline__title">
+                {job.occupation} @ {job.company} <br />
+                <small className="timeline__title--small">
+                  ({job.duration || 'present'})
+                </small>
+              </h2>
+              <p>{job.description}</p>
+            </div>
+          </article>
+        ))}
     </div>
   )
 }
@@ -66,9 +75,10 @@ export default styled(Timeline)`
     font-size: 12px;
     font-weight: 900;
     text-transform: uppercase;
-    background: #25303B;
-    color: #fff;
-    box-shadow: 0 0 0 7px #fff;
+    background: #FCE181;/*solidyellow*/
+
+    #25303b;/*darkgrey*/
+        box-shadow: 0 0 0 7px #fff;
   }
   .timeline__date span {
     display: block;
@@ -111,10 +121,11 @@ export default styled(Timeline)`
     float: right;
   }
   .timeline__title {
-    background: #25303B;
+    background: #25303b;/*darkgrey*/
+
   }
   .timeline__title:after {
-    background: #25303B;
+    background: #25303b;/*darkgrey*/
   }
 
   .timeline__title--small {
