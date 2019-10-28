@@ -70,28 +70,79 @@ module.exports = {
   ],
   skills: [
     {
-      name: 'HTML',
-      level: 70,
+      subject: 'Web development',
+      skills: [
+        {
+          name: 'MongoDB',
+          level: 60,
+        },
+        {
+          name: 'CSS',
+          level: 60,
+        },
+        {
+          name: 'Javascript',
+          level: 65,
+        },
+        {
+          name: 'NodeJs',
+          level: 60,
+        },
+        {
+          name: 'React',
+          level: 60,
+        },
+      ],
     },
     {
-      name: 'CSS',
-      level: 60,
+      subject: 'Murex',
+      skills: [
+        {
+          name: 'Accounting module',
+          level: 90,
+        },
+        {
+          name: 'Hedge accounting module',
+          level: 80,
+        },
+        {
+          name: 'P&L and P&L attribution',
+          level: 80,
+        },
+        {
+          name: 'FO modules',
+          level: 40,
+        },
+        {
+          name: 'Reporting',
+          level: 70,
+        },
+        {
+          name: 'Deliverables',
+          level: 70,
+        },
+        {
+          name: 'Workflows',
+          level: 60,
+        },
+      ],
     },
     {
-      name: 'Javascript',
-      level: 50,
-    },
-    {
-      name: 'NodeJs',
-      level: 40,
-    },
-    {
-      name: 'React',
-      level: 60,
-    },
-    {
-      name: 'Git',
-      level: 70,
+      subject: 'Management skills',
+      skills: [
+        {
+          name: 'Change management',
+          level: 50,
+        },
+        {
+          name: 'Project Management',
+          level: 60,
+        },
+        {
+          name: 'People management',
+          level: 60,
+        },
+      ],
     },
   ],
   jobs: [
@@ -166,7 +217,7 @@ module.exports = {
     linkedin: 'https://linkedin.com/in/vittorifrancesco',
     github: 'https://github.com/moscardino',
     email: 'whitethree@gmail.com',
-    CV:'/CV English - condensed.pdf',
+    CV: '/CV English - condensed.pdf',
   },
   siteUrl: 'localhost:8000',
   pathPrefix: '/portfolio', // Note: it must *not* have a trailing slash.

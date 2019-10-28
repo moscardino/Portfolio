@@ -68,9 +68,9 @@ export default class Footer extends React.Component {
           <svg className='flyinowl'
             id="Capa_1"
             enable-background="new 0 0 512 512"
-            height="80"
+            height="50"
             viewBox="0 0 512 512"
-            width="80"
+            width="50"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
