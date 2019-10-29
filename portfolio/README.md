@@ -16,7 +16,6 @@ Create your resume in a few minutes with this totally responsive starter using R
 
 ## 📷 Preview
 
-![Preview](./preview.png)
 
 ## 🚀 Quick start
 
