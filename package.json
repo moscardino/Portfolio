@@ -22,9 +22,6 @@
     "react-dom": "16.8.6",
     "react-helmet": "5.2.1",
     "react-icons": "3.6.1",
-    "react-tooltip": "^3.11.1",
-    "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.88.1",
     "simple-json-fetch": "1.0.1",
     "styled-components": "4.2.0"
   },
@@ -44,11 +41,4 @@
     "gh-pages": "2.0.1",
     "prettier": "1.17.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/santosfrancisco/gatsby-starter-cv"
-  },
-  "bugs": {
-    "url": "https://github.com/santosfrancisco/gatsby-starter-cv/issues"
-  }
 }

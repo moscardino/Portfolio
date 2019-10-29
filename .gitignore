@@ -71,3 +71,4 @@ yarn-error.log
 #build directory
 /public/*
 !/public/images
+!/public/icons
