@@ -15,10 +15,13 @@ This project is to show my skills and experience.
 
 ## 🚀 Tech Stack
 Gatsby
+
 React
+
 Styled components
+
 Animations are pure CSS
- 
+
 ## Configuration
 
 Update the configuration file with your data. The configuration file is in ```data/siteConfig.js```
