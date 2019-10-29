@@ -156,6 +156,7 @@ module.exports = {
       occupation: 'Senior Business Consultant',
       description: `Stream leader agile and SME (scoping to go-live) for Murex3 implementation projects (migration and green fields), with focus on P&L, accounting and hedge accounting topics, for EMEA clients.
       EMEA global reviewer of Product Control client business requirements.`,
+      details:'/images/VITTORI_Francesco_Mx3_Accounting.pdf'
     },
     {
       company: 'Accenture',

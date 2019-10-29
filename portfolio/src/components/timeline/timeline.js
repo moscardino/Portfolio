@@ -2,6 +2,23 @@ import React from 'react'
 import styled from 'styled-components'
 import { config } from 'react-awesome-styled-grid'
 import siteConfig from '../../../data/siteConfig'
+import { FaDownload } from 'react-icons/fa'
+
+const DetailsLink = styled.a`
+  padding: 8px;
+  display: block;
+  color: #555;
+  text-decorator:unset;
+  :hover {
+    color: #25303b; /*darkgrey*/
+  }
+`
+const Separator = styled.hr`
+  margin-top: -10px;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 6px;
+`
 
 const Timeline = ({ className }) => {
   return (
@@ -25,6 +42,12 @@ const Timeline = ({ className }) => {
                 </small>
               </h2>
               <p>{job.description}</p>
+              {job.details && (
+                <DetailsLink href={job.details}>
+                  <Separator />
+                  <FaDownload size={32} /> Details
+                </DetailsLink>
+              )}
             </div>
           </article>
         ))}
