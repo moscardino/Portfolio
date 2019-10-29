@@ -13,9 +13,9 @@ This project is aimed to show my skills and experience.
 ![Preview](./public/images/preview.PNG)
 
 ## 🚀 Tech Stack
-Gatsby
+![Gatsby](./public/icons/icon-48x48.png) Gatsby
 
-React
+![React](./public/icons/React-48x48.png) React
 
 Styled components
 
