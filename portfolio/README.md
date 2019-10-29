@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.francescovittori.com">
-    <img alt="owl" src="/images/owlicon.svg" width="60" />
+    <img alt="owl" src="./public/images/owlicon.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
