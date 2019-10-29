@@ -11,7 +11,7 @@ This project is to show my skills and experience.
 
 
 ## 📷 Preview
-./public/images/owlicon.svg
+![Preview](./public/images/owlicon.svg)
 
 ## 🚀 Tech Stack
 Gatsby
