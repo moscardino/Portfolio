@@ -17,7 +17,7 @@ This project is aimed to show my skills and experience.
 
 ![React](./public/icons/React-48x48.png) React
 
-Styled components
+![StyledComp](./public/icons/StyledComp.png) Styled components
 
 Animations are pure CSS
 
