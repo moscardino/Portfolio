@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: "Hi! I'm Francesco!",
   siteDescription: `My portfolio`,
-  keyWords: ['Murex', 'Javascript', 'curriculum'],
+  keyWords: ['Murex', 'Javascript', 'Curriculum', 'Vittori', 'WebDev', ],
   authorName: 'Francesco Vittori',
   twitterUsername: '',
   githubUsername: 'moscardino',
@@ -223,7 +223,7 @@ module.exports = {
   siteUrl: 'localhost:8000',
   pathPrefix: '/portfolio', // Note: it must *not* have a trailing slash.
   siteCover: '/images/owlsret.png',
-  googleAnalyticsId: '',
+  googleAnalyticsId: 'UA-151334035-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
   display: 'minimal-ui',
