@@ -1,6 +1,6 @@
 module.exports = {
-  siteTitle: "Hi! I'm Francesco!",
-  siteDescription: `My portfolio`,
+  siteTitle: "Francesco Vittori",
+  siteDescription: `Francesco Vittori personal site`,
   keyWords: ['Murex', 'Javascript', 'Curriculum', 'Vittori', 'WebDev', ],
   authorName: 'Francesco Vittori',
   twitterUsername: '',
@@ -227,7 +227,7 @@ module.exports = {
   background_color: '#ffffff',
   theme_color: '#25303B',
   display: 'minimal-ui',
-  icon: 'src/assets/gatsby-icon.png',
+  icon: 'src/assets/owlicon.svg',
   headerLinks: [
     {
       label: 'Experience',
