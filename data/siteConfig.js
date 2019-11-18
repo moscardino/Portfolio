@@ -1,6 +1,6 @@
 module.exports = {
-  siteTitle: "Hi! I'm Francesco!",
-  siteDescription: `My portfolio`,
+  siteTitle: "Francesco Vittori",
+  siteDescription: `Francesco Vittori personal site`,
   keyWords: ['Murex', 'Javascript', 'Curriculum', 'Vittori', 'WebDev', ],
   authorName: 'Francesco Vittori',
   twitterUsername: '',
