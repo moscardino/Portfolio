@@ -2,7 +2,7 @@ const config = require("./data/siteConfig");
 
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.francescovittori.com`,
+    siteUrl: 'https://www.francescovittori.com',
     title: config.siteTitle,
     description: config.siteDescription,
     author: config.authorName,
@@ -25,6 +25,36 @@ module.exports = {
         display: config.display,
         icon: config.icon,
       },
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/sitemap.xml`,
+        query: `
+          {
+            site {
+              siteMetadata {
+                siteUrl
+              }
+            }
+  
+            allSitePage {
+              edges {
+                node {
+                  path
+                }
+              }
+            }
+        }`,
+        serialize: ({ site, allSitePage }) =>
+          allSitePage.edges.map(edge => {
+            return {
+              url: site.siteMetadata.siteUrl + edge.node.path,
+              changefreq: `daily`,
+              priority: 0.7,
+            }
+          })
+      }
     },
     `gatsby-plugin-styled-components`,
     {
