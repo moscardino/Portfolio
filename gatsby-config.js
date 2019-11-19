@@ -2,6 +2,7 @@ const config = require("./data/siteConfig");
 
 module.exports = {
   siteMetadata: {
+    siteUrl: `https://www.francescovittori.com`,
     title: config.siteTitle,
     description: config.siteDescription,
     author: config.authorName,
@@ -11,6 +12,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
