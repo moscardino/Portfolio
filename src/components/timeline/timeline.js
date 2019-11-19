@@ -13,6 +13,16 @@ const DetailsLink = styled.a`
     color: #25303b; /*darkgrey*/
   }
 `
+
+const PageLink = styled.a`
+  display: inline;
+  color: #FCE181;/*solidyellow*/
+  text-decorator:unset;
+  :hover {
+    color: #FEF9C7;/*lightyellow*/
+  }
+`
+
 const Separator = styled.hr`
   margin-top: -10px;
   width: 60%;
@@ -36,7 +46,7 @@ const Timeline = ({ className }) => {
                 <span className="timeline__year">{job.begin.year}</span>
               </span>
               <h2 className="timeline__title">
-                {job.occupation} @ {job.company} <br />
+                {job.occupation} @ <PageLink href={job.link}>{job.company}</PageLink> <br />
                 <small className="timeline__title--small">
                   ({job.duration || 'present'})
                 </small>
