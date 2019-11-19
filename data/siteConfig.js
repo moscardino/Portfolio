@@ -220,7 +220,7 @@ module.exports = {
     email: 'whitethree@gmail.com',
     CV: '/images/CV English - condensed.pdf',
   },
-  siteUrl: 'localhost:8000',
+  siteUrl: 'https://www.francescovittori.com',
   pathPrefix: '/portfolio', // Note: it must *not* have a trailing slash.
   siteCover: '/images/owlsret.png',
   googleAnalyticsId: 'UA-151334035-1',
