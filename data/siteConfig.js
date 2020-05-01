@@ -103,7 +103,7 @@ module.exports = {
         },
         {
           name: 'Hedge accounting module',
-          level: 80,
+          level: 100,
         },
         {
           name: 'P&L and P&L attribution',
@@ -111,7 +111,7 @@ module.exports = {
         },
         {
           name: 'FO modules',
-          level: 40,
+          level: 60,
         },
         {
           name: 'Reporting',
@@ -147,12 +147,23 @@ module.exports = {
   ],
   jobs: [
     {
+      company: 'Freelance',
+      begin: {
+        month: 'Jan',
+        year: '2020',
+      },
+      duration: null,
+      occupation: 'Independent Senior Murex Consultant',
+      description: `Stream leader and business process consultant for a Murex3 implementation at Caisse de Depots et Consignation (Paris)`,
+      details:'/images/VITTORI_Francesco_Mx3_Accounting.pdf'
+    },
+    {
       company: 'Murex',
       begin: {
         month: 'nov',
         year: '2016',
       },
-      duration: null,
+      duration: '3 yrs and 3 mos',
       occupation: 'Senior Business Consultant',
       description: `Stream leader agile and SME (scoping to go-live) for Murex3 implementation projects (migration and green fields), with focus on P&L, accounting and hedge accounting topics, for EMEA clients.
       EMEA global reviewer of Product Control client business requirements.`,
