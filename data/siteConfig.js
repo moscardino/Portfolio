@@ -1,7 +1,7 @@
 module.exports = {
-  siteTitle: "Hi! I'm Francesco!",
-  siteDescription: `My portfolio`,
-  keyWords: ['Murex', 'Javascript', 'curriculum'],
+  siteTitle: "Francesco Vittori",
+  siteDescription: `Francesco Vittori personal site`,
+  keyWords: ['Murex', 'Javascript', 'Curriculum', 'Vittori', 'WebDev', ],
   authorName: 'Francesco Vittori',
   twitterUsername: '',
   githubUsername: 'moscardino',
@@ -167,7 +167,8 @@ module.exports = {
       occupation: 'Senior Business Consultant',
       description: `Stream leader agile and SME (scoping to go-live) for Murex3 implementation projects (migration and green fields), with focus on P&L, accounting and hedge accounting topics, for EMEA clients.
       EMEA global reviewer of Product Control client business requirements.`,
-      details:'/images/VITTORI_Francesco_Mx3_Accounting.pdf'
+      details:'/images/VITTORI_Francesco_Mx3_Accounting.pdf',
+      link:'https://www.murex.com/',
     },
     {
       company: 'Accenture',
@@ -181,6 +182,7 @@ module.exports = {
       I have been a Murex consultant for Banca Monte dei Paschi di Siena (MPS), providing user support for both MX2 and MX3. I worked on requirements definition, design, building and testing, with a special focus on MO/BO modules, risk modules and FO reconciliation.
       I have worked on Accounting, Fixing and Realtime (RTBS), Simulation and PLVAR, Reporting (Datamart and MReport), Hedge Accounting, Post-trade and pre-trade workflows, FO tools.
       `,
+      link:'https://www.accenture.com/it-it'
     },
     {
       company: 'Noivion',
@@ -191,6 +193,7 @@ module.exports = {
       duration: null,
       occupation: 'Board member – founder – former CTO',
       description: `Noivion srl is a company in the field of Thin Film Deposition Equipment and industrial Nanotechnology. `,
+      link:'http://noivion.com',
     },
     {
       company: 'Siena Solar Nanotech (2SN) S.p.A. and Light4tech srl',
@@ -211,6 +214,7 @@ module.exports = {
       duration: '6 mos',
       occupation: 'Software engineer',
       description: `Calculation libraries development in C++ . `,
+      link:'https://www.idscorporation.com/'
     },
     {
       company: 'CNR Pisa',
@@ -221,6 +225,7 @@ module.exports = {
       duration: '1 yr 5 mos',
       occupation: 'Thesist',
       description: `Laser Plasma interactions for fast electron production, computer simulations. `,
+      link:'http://www.area.pi.cnr.it/'
     },
     /* ... */
   ],
@@ -231,14 +236,14 @@ module.exports = {
     email: 'whitethree@gmail.com',
     CV: '/images/CV English - condensed.pdf',
   },
-  siteUrl: 'localhost:8000',
+  siteUrl: 'https://www.francescovittori.com',
   pathPrefix: '/portfolio', // Note: it must *not* have a trailing slash.
   siteCover: '/images/owlsret.png',
-  googleAnalyticsId: '',
+  googleAnalyticsId: 'UA-151334035-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
   display: 'minimal-ui',
-  icon: 'src/assets/gatsby-icon.png',
+  icon: 'src/assets/owlicon.svg',
   headerLinks: [
     {
       label: 'Experience',
