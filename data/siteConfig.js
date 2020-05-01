@@ -147,7 +147,7 @@ module.exports = {
   ],
   jobs: [
     {
-      company: 'Freeleance',
+      company: 'Freelance',
       begin: {
         month: 'Jan',
         year: '2020',
