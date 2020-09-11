@@ -155,7 +155,7 @@ module.exports = {
       duration: null,
       occupation: 'Independent Senior Murex Consultant',
       description: `Stream leader and business process consultant for a Murex3 implementation at Caisse de Depots et Consignation (Paris)`,
-      details:'/images/VITTORI_Francesco_Mx3_Accounting.pdf'
+      details:'/images/VITTORI_Francesco_CapitalMarkets_details.pdf'
     },
     {
       company: 'Murex',
@@ -167,7 +167,7 @@ module.exports = {
       occupation: 'Senior Business Consultant',
       description: `Stream leader agile and SME (scoping to go-live) for Murex3 implementation projects (migration and green fields), with focus on P&L, accounting and hedge accounting topics, for EMEA clients.
       EMEA global reviewer of Product Control client business requirements.`,
-      details:'/images/VITTORI_Francesco_Mx3_Accounting.pdf',
+      details:'/images/VITTORI_Francesco_CapitalMarkets_details.pdf',
       link:'https://www.murex.com/',
     },
     {
